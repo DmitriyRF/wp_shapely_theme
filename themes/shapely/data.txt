@@ -1,0 +1,24 @@
+e:\OpenServer\domains\backup\wp-content\plugins\shapely-companion\inc\widgets\
+
+
+
+
+e:\OpenServer\domains\backup\wp-content\themes\shapely\
+
+
+
+<p>
+	<label
+
+	for="<?php echo esc_attr($this->get_field_id('short_code')); ?>"><?php esc_html_e('Mailchip naked form HTML ', 'shapely') ?>
+
+</label>
+
+<textarea name="<?php echo esc_attr($this->get_field_name('short_code')); ?>"
+
+	id="<?php echo esc_attr($this->get_field_id('short_code')); ?>"
+
+	class="widefat" rows="15"><?php echo esc_attr($instance['short_code']); ?>
+</textarea>
+
+</p>
